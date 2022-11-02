@@ -11,7 +11,7 @@
 */
 
 int main (void) {
-    for(int i = 1; i <= 9; i++) {
+    for(int i = 1; i <= 9; i++) {  //마지막 i값은 9가 아닌 10이다.
     printf ("2 X %d = %d\n", i, 2*i);
     }
 
